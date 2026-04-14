@@ -1,0 +1,35 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv/
+
+# Machine Learning Models
+# Usually we keep models local or use LFS, but you can ignore them to keep the repo light
+*.pkl
+*.joblib
+
+# OS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environments & Secret keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Dataset files
+# It is better to keep your large CSVs out of the repo
+*.csv
